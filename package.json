@@ -1,0 +1,22 @@
+{
+  "name": "curriculo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "curriculo feito em html para facilitar a atualização",
+  "scripts": {
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergiofreitas/curriculo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sergiofreitas/curriculo/issues"
+  },
+  "homepage": "https://github.com/sergiofreitas/curriculo#readme",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}

@@ -1,0 +1,240 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #696969;
+    margin: 0
+}
+
+.container {
+    width: 1024px;
+    margin: auto
+}
+
+.container::after {
+    clear: both;
+    content: "";
+    display: block
+}
+
+.name {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    width: calc(100% - 40px);
+    float: left;
+    margin-left: 20px
+}
+
+.name span {
+    font-size: 22px;
+    display: block
+}
+
+.name small {
+    color: #999;
+    font-size: 18px;
+    margin-top: 5px;
+    display: block;
+    font-weight: 300
+}
+
+.name .ampersand {
+    font-style: italic;
+    color: #666
+}
+
+.about,
+.contact,
+.address {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: calc(33.33333% - 26.66667px);
+    float: left;
+    margin-left: 20px;
+    font-size: 14px
+}
+
+.about .label,
+.contact .label,
+.address .label {
+    width: calc(40% - 15px);
+    float: left;
+    text-align: right;
+    margin: 0;
+    padding-right: 15px
+}
+
+.about .label small,
+.contact .label small,
+.address .label small {
+    display: block;
+    color: #999;
+    font-style: italic;
+    font-size: 10px
+}
+
+.about .content,
+.contact .content,
+.address .content {
+    width: 60%;
+    float: left;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    list-style: none
+}
+
+.about .content small,
+.contact .content small,
+.address .content small {
+    color: #999;
+    padding-left: 5px
+}
+
+.main-left,
+.main-right {
+    width: calc(50% - 30px);
+    float: left;
+    margin-left: 20px
+}
+
+.block {
+    margin-top: 20px;
+    margin-bottom: 40px
+}
+
+.block-title {
+    padding-bottom: 3px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    border-bottom: 1px solid #eee
+}
+
+.block-title small {
+    font-style: italic;
+    font-weight: 300;
+    padding-left: 10px;
+    font-size: 14px
+}
+
+.progress .bullet {
+    display: inline-block;
+    margin: 1px;
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    background: #ccc
+}
+
+.progress .bullet.fill {
+    background: #444
+}
+
+.language {
+    width: calc(33.33333% - 16.66667px);
+    float: left;
+    margin-left: 15px;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 12px;
+    margin-top: 20px
+}
+
+.language span {
+    display: block;
+    font-size: 10px;
+    margin-top: 4px
+}
+
+.language .progress {
+    margin-top: 15px
+}
+
+.skill {
+    font-size: 16px;
+    margin-bottom: 15px
+}
+
+.skill-header small {
+    color: #999;
+    font-style: italic;
+    font-size: 11px;
+    padding-left: 5px
+}
+
+.skill-body {
+    padding: 0;
+    margin: 30px 0;
+    list-style: none;
+    font-size: 14px;
+    overflow: hidden
+}
+
+.skill-body li {
+    float: left;
+    width: calc(50% - 18px);
+    padding: 0 9px
+}
+
+.skill-body .rating {
+    float: right
+}
+
+.skill-body .skill-name {
+    float: left;
+    width: 60%
+}
+
+.skill-body .skill-name small {
+    color: #999;
+    display: block;
+    line-height: 1em;
+    margin-bottom: 3px
+}
+
+.skill-body .skill-name+.rating {
+    margin-top: 9px
+}
+
+.skill-body .bullet {
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 1px;
+    border-radius: 100%;
+    width: 10px;
+    height: 10px;
+    background: #ccc
+}
+
+.skill-body .bullet.fill {
+    background: #555
+}
+
+.work {
+    font-size: 14px;
+    margin-bottom: 40px
+}
+
+.work-header span {
+    float: right
+}
+
+.work-body {
+    margin-top: 5px
+}
+
+.work-body small {
+    display: block;
+    margin-bottom: 2px
+}
+
+.work-body span {
+    display: block
+}
